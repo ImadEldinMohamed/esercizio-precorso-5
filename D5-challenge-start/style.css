@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(157, 170, 170);
+}
+
+.main {
+  width: 100%;
+}
+
+.topbar {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.icon {
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+  cursor: pointer;
+}
+
+.icon ion-icon {
+  font-size: 2em;
+}
+
+.icon p {
+  margin: 0;
+}
+
+.icon:not(:first-of-type) {
+  height: 16vh;
+}
+
+.logo {
+  height: 50%;
+}
+
+.search-wrapper {
+  display: flex;
+  height: 50%;
+  width: 30%;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 0 1em;
+}
+
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.top-icon {
+  font-size: 2em;
+  padding: 0 0.5em;
+  cursor: pointer;
+}
+
+.mic-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-btn {
+  padding: 0 0.7em;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+}
+#epicode_thumb {
+  height: 200px;
+padding: 0.5em;
+width: 86%;
+cursor: pointer;
+
+}
+
+#epicode-logo {
+  width: 6.5vh;
+  height: 6.5vh;
+  padding-left: 0.5em;
+  margin: 0;
+}
+
+
+#sottovideo {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+ 
+
+  
+}
+
+.logo-sottovideo {
+  display: flex;
+  align-items: center;
+ 
+}
+
+  
+
+#sottovideo p {
+  margin: 0;
+  padding: 0.1em;
+ padding-left: 0.2em;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+align-items: center;
+}
+
+.titolo {
+  font-family: fantasy;
+  font-size: medium;
+  
+}
+
+.descrizione {
+ font-size: small;
+}
+
+
+ 
+
+
